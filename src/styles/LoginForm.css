@@ -1,0 +1,156 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    font-size: clamp(0.7rem, 2vw, 1rem);
+    flex-wrap: nowrap; 
+  }
+  
+  .image-box {
+    position: relative;
+    width: 100%;
+    max-width: 400px; 
+    height: 460px;
+    background-color: #2563eb;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+  }
+  
+  .image-box p {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    font-size: clamp(1rem, 3vw, 2.5rem);
+    line-height: 1.5;
+  }
+  
+  
+  .login-box {
+    background-color: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    padding: 2rem;
+    height: 400px;
+  }
+  
+  .Form-title {
+    text-align: center;
+    line-height: 0%;
+  }
+  
+  span {
+    color: #2563eb;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: black;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    padding: 0.6rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border 0.2s;
+  }
+  
+  .form-group input:focus {
+    border-color: #2563eb;
+  }
+  
+  .remember-me {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+  }
+  
+  .remember-me input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .login-button {
+    width: 100%;
+    background: #2563eb;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .login-button:hover {
+    background: #1d4ed8;
+  }
+
+
+  @media (max-width:800px) {
+    .image-box {
+    position: relative;
+    width: 100%;
+    max-width: 200px; 
+    height: 460px;
+    background-color: #2563eb;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  }
+  .login-box {
+    background-color: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    max-width: 100%;
+    padding: 2rem;
+    height: 400px;
+  }
+  }
+
+  
+ 
+ 
+  
+  
+  
+  
